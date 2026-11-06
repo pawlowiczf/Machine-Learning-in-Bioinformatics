@@ -1,0 +1,15 @@
+name: attention-demo
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pytorch
+  - numpy=1.26.4
+  - matplotlib
+  - jupyter
+  - notebook
+  - ipykernel
