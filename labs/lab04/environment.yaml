@@ -1,0 +1,16 @@
+name: esm_env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - torch
+    - torchvision
+    - esm
+    - py3Dmol
